@@ -14,6 +14,17 @@ Further information about linux keymaps can be found here:
 * [Karol Stasiak's Blog](https://karols.github.io/blog/2013/11/18/creating-custom-keyboard-layouts-for-linux/)
 * [LSDevLinux Wiki](http://linux.lsdev.sil.org/wiki/index.php/Building_an_XKB_Keyboard) - thanks also for some ideas for [regular expressions](http://linux.lsdev.sil.org/wiki/index.php/Conversion_from_Microsoft_KLC).
 
+## Usage
+
+* (optional) Generate your own keymap using [Microsoft Keyboard Layout Creator](http://msdn.microsoft.com/en-us/goglobal/bb964665.aspx) or [KbdEdit](http://www.kbdedit.com/)).
+* Edit the script "convert_to_xkb.py": the variables "input" and "ouptout" reflect the filenames of the input .klc and output .xkb files, respectively.
+* Run the script.
+* Merge the generated output (which is in the output file) into your /usr/share/X11/xkb/symbols/us file (see links below for more info).
+* Adjust the /usr/share/xkb/rules/evdev.xml file accordingly (see links below for more info).
+* Use your new keymap.
+
+## Alternative Usage
+
 As an alternative - if you do not want to mess around with the script and just want to use my keyboard map under Linux - I have uploaded my /usr/share/X11/xkb/symbols/us (usr_share_X11_xkb_symbols_us) and /usr/share/xkb/rules/evdev.xml (usr_share_X11_xkb_rules_evdev.xml) files. You can just copy these to make the keyboard layout "English (US) (English (US, symbols and Greek letters))" available.
 
 
