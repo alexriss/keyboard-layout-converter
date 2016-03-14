@@ -13,12 +13,12 @@ I have included an example input file ("US - international - custom - nodeadkeys
 
 ## Usage
 
-* (optional) Generate your own keymap using [Microsoft Keyboard Layout Creator](http://msdn.microsoft.com/en-us/goglobal/bb964665.aspx) or [KbdEdit](http://www.kbdedit.com/)).
-* Edit the script "convert_to_xkb.py": the variables "input" and "ouptout" reflect the filenames of the input .klc and output .xkb files, respectively.
-* Run the script.
-* Merge the generated output (which is in the output file) into your /usr/share/X11/xkb/symbols/us file (see links below for more info).
-* Adjust the /usr/share/xkb/rules/evdev.xml file accordingly (see links below for more info).
-* Use your new keymap.
+1. (optional) Generate your own keymap using [Microsoft Keyboard Layout Creator](http://msdn.microsoft.com/en-us/goglobal/bb964665.aspx) or [KbdEdit](http://www.kbdedit.com/)).
+2. Edit the script "convert_to_xkb.py": the variables "input" and "ouptout" reflect the filenames of the input .klc and output .xkb files, respectively.
+3. Run the script.
+4. Merge the generated output (which is in the output file) into your /usr/share/X11/xkb/symbols/us file (see links below for more info).
+5. Adjust the /usr/share/xkb/rules/evdev.xml file accordingly (see links below for more info).
+6. Use your new keymap and enjoy your new level of productivity.
 
 Further information about linux keymaps can be found here:
 * [Karol Stasiak's Blog](https://karols.github.io/blog/2013/11/18/creating-custom-keyboard-layouts-for-linux/)
