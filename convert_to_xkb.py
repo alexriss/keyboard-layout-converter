@@ -79,7 +79,7 @@ for line in input:
         newline
     )
     newline = re.sub(
-        r'([A-Fa-f0-9]{4},)',
+        r'([A-Fa-f0-9]{4}(,|\s\]))',
         r'U\1',
         newline
     )
