@@ -6,7 +6,7 @@ The python file converts a Windows .klc file (which can be created using the [Mi
 I have included an example input file ("US - international - custom - nodeadkeys - greek.klc"), which is a US keyboard layout with German special characters (ä, ö, ü, ß), as well as useful special characters for science (these include mathematical symbols and Greek letters). The symbols that can be accessed with the right-Alt (AltGr) and Shift-right-Alt keys are shown here:
 
 ![Keyboard Layout AltGr](LayoutAltGr.png?raw=true)
-![Keyboard Layout AltGr Shift](LayoutAltGrShift.png?raw=true)
+![Keyboard Layout AltGr Shift](LayoutShftAltGr.png?raw=true)
 
 Further information about linux keymaps can be found here:
 * [Karol Stasiak's Blog](https://karols.github.io/blog/2013/11/18/creating-custom-keyboard-layouts-for-linux/)
