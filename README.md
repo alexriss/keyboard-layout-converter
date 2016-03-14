@@ -10,9 +10,6 @@ I have included an example input file ("US - international - custom - nodeadkeys
 ![Keyboard Layout AltGr](LayoutAltGr.png?raw=true)
 ![Keyboard Layout AltGr Shift](LayoutShftAltGr.png?raw=true)
 
-Further information about linux keymaps can be found here:
-* [Karol Stasiak's Blog](https://karols.github.io/blog/2013/11/18/creating-custom-keyboard-layouts-for-linux/)
-* [LSDevLinux Wiki](http://linux.lsdev.sil.org/wiki/index.php/Building_an_XKB_Keyboard) - thanks also for some ideas for [regular expressions](http://linux.lsdev.sil.org/wiki/index.php/Conversion_from_Microsoft_KLC).
 
 ## Usage
 
@@ -22,6 +19,11 @@ Further information about linux keymaps can be found here:
 * Merge the generated output (which is in the output file) into your /usr/share/X11/xkb/symbols/us file (see links below for more info).
 * Adjust the /usr/share/xkb/rules/evdev.xml file accordingly (see links below for more info).
 * Use your new keymap.
+
+Further information about linux keymaps can be found here:
+* [Karol Stasiak's Blog](https://karols.github.io/blog/2013/11/18/creating-custom-keyboard-layouts-for-linux/)
+* [LSDevLinux Wiki](http://linux.lsdev.sil.org/wiki/index.php/Building_an_XKB_Keyboard) - thanks also for some ideas for [regular expressions](http://linux.lsdev.sil.org/wiki/index.php/Conversion_from_Microsoft_KLC).
+
 
 ## Alternative Usage
 
