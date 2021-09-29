@@ -58,8 +58,8 @@ KPDL DECIMAL"""
 
 
 
-output = open("US - international - custom - nodeadkeys - greek.xkb","w")
-input = open("US - international - custom - nodeadkeys - greek.klc", encoding="utf-16")
+output = open(r"US - international - custom - nodeadkeys - greek.xkb","w")
+input = open(r"US - international - custom - nodeadkeys - greek.klc", encoding="utf-16")
 
 keycodes_linux = []
 keycodes_win = []
